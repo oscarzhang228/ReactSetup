@@ -1,0 +1,13 @@
+{
+  "name": "reactsetup",
+  "version": "1.0.0",
+  "description": "This is a personal project to manually set up a React app from scratch without relying on prebuilt tools like `create-react-app`. The goal is to understand how various tools integrate and work together in a React application.",
+  "main": "index.html",
+  "scripts": {},
+  "author": "oscarzhang228",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
