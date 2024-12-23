@@ -3,11 +3,25 @@
   "version": "1.0.0",
   "description": "This is a personal project to manually set up a React app from scratch without relying on prebuilt tools like `create-react-app`. The goal is to understand how various tools integrate and work together in a React application.",
   "main": "index.html",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack"
+  },
   "author": "oscarzhang228",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
   }
 }

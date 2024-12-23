@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client";
+import React from "react";
 
 document.body.innerHTML = "<div id='root'></div>";
 

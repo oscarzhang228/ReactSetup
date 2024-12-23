@@ -2,7 +2,7 @@
 
 This is a personal project to manually set up a React app from scratch without relying on prebuilt tools like `create-react-app`. The goal is to understand how various tools integrate and work together in a React application. This setup will include:
 
-- [Vite](https://vitejs.dev) for development server and bundling
+- [Webpack](https://webpack.js.org/) for development server and bundling
 - [Babel](https://babeljs.io) for JavaScript transpilation
 - [ESLint](https://eslint.org) for linting
 - [Prettier](https://prettier.io) for code formatting
@@ -21,10 +21,10 @@ This is a personal project to manually set up a React app from scratch without r
 - Start with `npm init` to create a `package.json`.
 - Define the project structure and dependencies.
 
-### Step 2: Vite Setup
+### Step 2: Webpack Setup
 
-- Use Vite for the development server and bundling.
-- Configure Vite to work with React.
+- Use Webpack for the development server and bundling.
+- Configure Webpack to work with React.
 
 ### Step 3: Babel Setup
 
@@ -45,4 +45,3 @@ This is a personal project to manually set up a React app from scratch without r
 
 - Add Git hooks with Husky for pre-commit linting and formatting.
 - Automate code quality checks in the development workflow.
-
